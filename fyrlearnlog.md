@@ -7,4 +7,23 @@
 
 #### MongoDB建立小区论坛和论坛评价
     今天完成了MongoDB建立小区论坛和论坛评价的任务，看完了Android学习的12个视频。
+    -activity七个生命周期，
+        1、当第一次调用一个Activity就会执行onCreate方法
+        2、当Activity处于可见状态的时候就会调用onStart方法
+        3、当Activity可以得到用户焦点的时候就会调用onResume方法
+        4、当Activity被遮挡住的时候就会调用onPause方法
+        5、当Activity处于不可见状态的时候就会调用onStop方法
+        6、当Activity没有被销毁的时候重新调用这个Activity就会调用onRestart方法
+        7、当Activity被销毁时会调用onDestory方法
+
+    -intent 用来在activity之间传递消息，activity不一定在同一个应用程序中
+    -activity初步布局；有horizontal水平的和vertical垂直的两种
+    -常见控件有TextView,EditText,Button,Menu这几种
+    -通过task来把不同程序或相同程序的activity组织在一起，将activity压入栈中，activity.finish()摧毁
+    activity，会从栈中去掉
+    -了解布局和常用控件
+    toast 吐司，提示用户消息
+    pregressbar 进度条 可自定义最大值、主进度条、第二进度条  
+    默认进度条无法显示进行的状态
+    -listView extend listActivity显示像列表一样的布局
 ——————2019/7/4
