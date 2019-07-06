@@ -18,12 +18,22 @@
 
     -intent 用来在activity之间传递消息，activity不一定在同一个应用程序中
     -activity初步布局；有horizontal水平的和vertical垂直的两种
-    -常见控件有TextView,EditText,Button,Menu这几种
+    
     -通过task来把不同程序或相同程序的activity组织在一起，将activity压入栈中，activity.finish()摧毁
     activity，会从栈中去掉
+    -linerLayout与TableLayout的使用方法
+    -常见控件有TextView,EditText,Button,Menu这几种
     -了解布局和常用控件
-    toast 吐司，提示用户消息
-    pregressbar 进度条 可自定义最大值、主进度条、第二进度条  
-    默认进度条无法显示进行的状态
-    -listView extend listActivity显示像列表一样的布局
+        · 相对布局，就是与其他部件的相对布局
+        · toast 吐司，提示用户消息
+        · RadioGroup和RadioButton 单选框
+        · CheckBox 复选框
+        · pregressbar 进度条 可自定义最大值、主进度条、第二进度条  
+        · 默认进度条无法显示进行的状态
+        · listView extend listActivity显示像列表一样的布局
 ——————2019/7/4
+
+#### 写系统设计文档自己负责的部分
+
+    包括小区服务，物业通知，小区论坛三个部分，要写模块功能，各个功能的类图，还要写时序图，和用到哪些类及其描述
+——————2019/7/5
